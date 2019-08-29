@@ -1,6 +1,9 @@
 ---
 title: "Pull requests"
-output: github_document
+output: 
+  github_document:
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -28,31 +31,31 @@ All the DCL books use bookdown. Bookdown has a feature that makes it easy to mak
 To use this feature, click on the pencil and paper icon in the top-left. Note that you have to be on the page that you want to edit.
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/bookdown-edit.png")
+knitr::include_graphics("images/pull-requests/bookdown-edit.png")
 ```
 
 You'll be directed to GitHub, and asked to fork the repository. Click _Fork this repository and propose changes_.
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/bookdown-fork.png")
+knitr::include_graphics("images/pull-requests/bookdown-fork.png")
 ```
 
 Make your changes in the _Edit file_ editor.
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/bookdown-github-edit.png")
+knitr::include_graphics("images/pull-requests/bookdown-github-edit.png")
 ```
 
 Then, scroll down to the box titled _Propose file change_.
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/bookdown-pull-request.png")
+knitr::include_graphics("images/pull-requests/bookdown-pull-request.png")
 ```
 
 Add a title and description to your proposed change.
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/bookdown-pull-request-description.png")
+knitr::include_graphics("images/pull-requests/bookdown-pull-request-description.png")
 ```
 
 Then, click _Propose file change_.
@@ -60,13 +63,13 @@ Then, click _Propose file change_.
 You should now see page comparing your proposed changes to the original. Click _Create pull request_.
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/bookdown-pull-request-compare.png")
+knitr::include_graphics("images/pull-requests/bookdown-pull-request-compare.png")
 ```
 
 You'll again have a change to edit your pull request title and description. 
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/bookdown-pull-request-description-2.png")
+knitr::include_graphics("images/pull-requests/bookdown-pull-request-description-2.png")
 ```
 
 When you're happy with your title and description, click _Create pull request_. 
@@ -74,7 +77,7 @@ When you're happy with your title and description, click _Create pull request_.
 If you see a page that looks like the following, you're done! Now, you just wait to see if the repository owner accepts or rejects your pull request.
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/bookdown-pull-request-done.png")
+knitr::include_graphics("images/pull-requests/bookdown-pull-request-done.png")
 ```
 
 ## Fork-and-branch workflow
@@ -88,7 +91,7 @@ We'll walk you through the process step-by-step.
 On the GitHub site, navigate to the repository where you want to suggest a change. Click _Fork_. 
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/fork.png")
+knitr::include_graphics("images/pull-requests/fork.png")
 ```
 
 GitHub may ask you where you want to fork the repository. You will likely want to fork it to your own personal account. 
@@ -98,7 +101,7 @@ GitHub may ask you where you want to fork the repository. You will likely want t
 On your fork's GitHub page, click _Clone or download_ and then copy the URL.
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/clone.png")
+knitr::include_graphics("images/pull-requests/clone.png")
 ```
 
 Next, from the command line, navigate to the folder where you want your fork to live. Then, clone your fork with
@@ -208,13 +211,13 @@ Before you create a new branch, you need to make sure your currently on the mast
 You want a tree that looks like this
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/tree-correct.png")
+knitr::include_graphics("images/pull-requests/tree-correct.png")
 ```
 
 Not like this
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/tree-wrong.png")
+knitr::include_graphics("images/pull-requests/tree-wrong.png")
 ```
 
 (Sometimes you'll want the second kind of tree, just not in the cases we're talking about here.)
@@ -227,5 +230,5 @@ to checkout the master branch. Then, create a new branch with
 
 `git checkout -b [name of new branch]`
 
-Next, you'll need to repeat the steps from _Make changes in your branch_ on. 
+Now, to make another change, just repeat the steps starting with _Make changes in your branch_. 
 

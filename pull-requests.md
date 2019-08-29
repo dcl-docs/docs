@@ -1,6 +1,9 @@
 Pull requests
 ================
 
+  - [Quick fixes to bookdown books](#quick-fixes-to-bookdown-books)
+  - [Fork-and-branch workflow](#fork-and-branch-workflow)
+
 DCL books and readings are on GitHub, and anyone can contribute and
 suggest changes. To contribute to content or code that’s on GitHub,
 you’ll need to:
@@ -32,36 +35,36 @@ easy to make pull requests for small wording fixes like typos.
 To use this feature, click on the pencil and paper icon in the top-left.
 Note that you have to be on the page that you want to edit.
 
-![](images/bookdown-edit.png)<!-- -->
+![](images/pull-requests/bookdown-edit.png)<!-- -->
 
 You’ll be directed to GitHub, and asked to fork the repository. Click
 *Fork this repository and propose changes*.
 
-![](images/bookdown-fork.png)<!-- -->
+![](images/pull-requests/bookdown-fork.png)<!-- -->
 
 Make your changes in the *Edit file* editor.
 
-![](images/bookdown-github-edit.png)<!-- -->
+![](images/pull-requests/bookdown-github-edit.png)<!-- -->
 
 Then, scroll down to the box titled *Propose file change*.
 
-![](images/bookdown-pull-request.png)<!-- -->
+![](images/pull-requests/bookdown-pull-request.png)<!-- -->
 
 Add a title and description to your proposed change.
 
-![](images/bookdown-pull-request-description.png)<!-- -->
+![](images/pull-requests/bookdown-pull-request-description.png)<!-- -->
 
 Then, click *Propose file change*.
 
 You should now see page comparing your proposed changes to the original.
 Click *Create pull request*.
 
-![](images/bookdown-pull-request-compare.png)<!-- -->
+![](images/pull-requests/bookdown-pull-request-compare.png)<!-- -->
 
 You’ll again have a change to edit your pull request title and
 description.
 
-![](images/bookdown-pull-request-description-2.png)<!-- -->
+![](images/pull-requests/bookdown-pull-request-description-2.png)<!-- -->
 
 When you’re happy with your title and description, click *Create pull
 request*.
@@ -70,7 +73,7 @@ If you see a page that looks like the following, you’re done\! Now, you
 just wait to see if the repository owner accepts or rejects your pull
 request.
 
-![](images/bookdown-pull-request-done.png)<!-- -->
+![](images/pull-requests/bookdown-pull-request-done.png)<!-- -->
 
 ## Fork-and-branch workflow
 
@@ -85,7 +88,7 @@ We’ll walk you through the process step-by-step.
 On the GitHub site, navigate to the repository where you want to suggest
 a change. Click *Fork*.
 
-![](images/fork.png)<!-- -->
+![](images/pull-requests/fork.png)<!-- -->
 
 GitHub may ask you where you want to fork the repository. You will
 likely want to fork it to your own personal account.
@@ -95,7 +98,7 @@ likely want to fork it to your own personal account.
 On your fork’s GitHub page, click *Clone or download* and then copy the
 URL.
 
-![](images/clone.png)<!-- -->
+![](images/pull-requests/clone.png)<!-- -->
 
 Next, from the command line, navigate to the folder where you want your
 fork to live. Then, clone your fork with
@@ -239,11 +242,11 @@ the master branch. Otherwise, you’ll branch off your branches.
 
 You want a tree that looks like this
 
-![](images/tree-correct.png)<!-- -->
+![](images/pull-requests/tree-correct.png)<!-- -->
 
 Not like this
 
-![](images/tree-wrong.png)<!-- -->
+![](images/pull-requests/tree-wrong.png)<!-- -->
 
 (Sometimes you’ll want the second kind of tree, just not in the cases
 we’re talking about here.)
@@ -256,5 +259,5 @@ to checkout the master branch. Then, create a new branch with
 
 `git checkout -b [name of new branch]`
 
-Next, you’ll need to repeat the steps from *Make changes in your branch*
-on.
+Now, to make another change, just repeat the steps starting with *Make
+changes in your branch*.
