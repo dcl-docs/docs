@@ -1,6 +1,9 @@
 RStudio code snippets
 ================
 
+  - [`tv` snippet](#tv-snippet)
+  - [`rscript` snippet](#rscript-snippet)
+
 In RStudio, **code snippets** are text macros that you can use to insert
 bits of commonly used code. Here, we’ll walk you through the creation of
 two snippets:
@@ -17,7 +20,7 @@ You can use the same process to create any snippet you want.
   - Make sure *Enable code snippets* is checked.
   - Click on *Edit snippets*.
 
-![](images/preferences_wizard.png)<!-- -->
+![](images/rstudio-snippets/preferences_wizard.png)<!-- -->
 
   - Scroll down to the bottom of the snippet editor to add your snippet.
   - Paste in the following code to create a `library(tidyverse)` snippet
@@ -31,7 +34,7 @@ You can use the same process to create any snippet you want.
 Note that every line after `snippet [snippet name]` must start with a
 single tab.
 
-![](images/tv_snippet.png)<!-- -->
+![](images/rstudio-snippets/tv_snippet.png)<!-- -->
 
   - Click *Save* and exit the *Preferences* window.
 
@@ -76,7 +79,7 @@ Because the script template has elements for the user to fill in, the
         # ${1:Descriptio}
         
         # Author: ${2:Name}
-        # Version: 2019-08-26
+        # Version: 2019-08-29
         
         # Libraries
         library(tidyverse)
@@ -87,7 +90,7 @@ Because the script template has elements for the user to fill in, the
         
         ${5:# Code}
 
-![](images/rscript_snippet.png)<!-- -->
+![](images/rstudio-snippets/rscript_snippet.png)<!-- -->
 
 The `${}` components create variables. As you’ll see later, when you use
 the snippet, you can tab through these variables to fill them in. The
@@ -102,10 +105,10 @@ Now, you can use your snippet.
   - Fill in your variables (if the snippet has any). You can tab to
     automatically move the cursor to the next variable.
 
-![](images/rscript_snippet_done.png)<!-- -->
+![](images/rstudio-snippets/rscript_snippet_done.png)<!-- -->
 
 You shouldn’t have to type out `rscript` everytime you want to use the
 snippet. If you type out a portion of `rscript`, the name of the snippet
 should appear and you can hit tab to select the snippet.
 
-![](images/rscript_snippet_popup.png)<!-- -->
+![](images/rstudio-snippets/rscript_snippet_popup.png)<!-- -->

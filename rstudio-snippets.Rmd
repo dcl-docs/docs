@@ -23,7 +23,7 @@ You can use the same process to create any snippet you want.
 * Click on _Edit snippets_.
 
 ```{r echo=FALSE, image_dpi = 125}
-knitr::include_graphics("images/preferences_wizard.png")
+knitr::include_graphics("images/rstudio-snippets/preferences_wizard.png")
 ```
 
 * Scroll down to the bottom of the snippet editor to add your snippet.
@@ -37,7 +37,7 @@ snippet tv
 Note that every line after `snippet [snippet name]` must start with a single tab.
 
 ```{r echo=FALSE, image_dpi = 125}
-knitr::include_graphics("images/tv_snippet.png")
+knitr::include_graphics("images/rstudio-snippets/tv_snippet.png")
 ```
 
 * Click _Save_ and exit the _Preferences_ window.
@@ -89,7 +89,7 @@ snippet rscript
 ```
 
 ```{r echo=FALSE, image_dpi = 125}
-knitr::include_graphics("images/rscript_snippet.png")
+knitr::include_graphics("images/rstudio-snippets/rscript_snippet.png")
 ```
 
 The `${}` components create variables. As you'll see later, when you use the snippet, you can tab through these variables to fill them in. The numbers inside the `{}`s define the order in which you can tab through them.
@@ -102,12 +102,12 @@ Now, you can use your snippet.
 * Fill in your variables (if the snippet has any). You can tab to automatically move the cursor to the next variable. 
 
 ```{r echo=FALSE, image_dpi = 125}
-knitr::include_graphics("images/rscript_snippet_done.png")
+knitr::include_graphics("images/rstudio-snippets/rscript_snippet_done.png")
 ``` 
 
 You shouldn't have to type out `rscript` everytime you want to use the snippet. If you type out a portion of `rscript`, the name of the snippet should appear and you can hit tab to select the snippet.
 
 ```{r echo=FALSE, image_dpi = 125}
-knitr::include_graphics("images/rscript_snippet_popup.png")
+knitr::include_graphics("images/rstudio-snippets/rscript_snippet_popup.png")
 ```
 
