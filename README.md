@@ -1,4 +1,4 @@
-# Data Challenge Lab documents
+# Data Challenge Lab guides and tutorials
 
 * [Data Challenge Lab style guide](style-guide.md)
 * [How to use Rstudio code snippets](rstudio-snippets.md)
